@@ -1,20 +1,14 @@
-// Create a single linked list and display elements of list
-package main
+package linkedlist
 
 import "fmt"
 
-// Node structure
-type Node struct {
-	Value int
-	Next *Node
-}
-
-func main() {
+// DisplayLinkedListElements ...
+func DisplayLinkedListElements() {
 	var choice, value int
 	var head, current *Node
 
 	choice = 1
-	
+
 	// Create linked list
 	for choice == 1 {
 		fmt.Print("Plase enter a number: ")
@@ -29,7 +23,7 @@ func main() {
 		current = newNode
 
 		fmt.Print("Do you want to continue (1 for yes, 0 for no): ")
-		fmt.Scanf("%d\n", &choice)	
+		fmt.Scanf("%d\n", &choice)
 	}
 
 	// Print elements of linked list

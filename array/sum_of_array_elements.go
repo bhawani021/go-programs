@@ -1,10 +1,11 @@
 // Sum of array elements
 
-package main
+package array
 
 import "fmt"
 
-func main() {
+// SumOfArrayElements ...
+func SumOfArrayElements() {
 	// Get sum of array elements using foo loop
 	// Declare an array of interger tyoe
 	nums := [5]int{1, 2, 3, 4, 5}

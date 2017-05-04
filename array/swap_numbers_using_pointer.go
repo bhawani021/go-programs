@@ -1,9 +1,9 @@
-// Swap two number using pointer
-package main
+package array
 
 import "fmt"
 
-func main() {
+// SwapNumbersUsingPointer ...
+func SwapNumbersUsingPointer() {
 	// Declare two integer type variables
 	var a, b int
 	fmt.Print("Please enter two numbers: ")

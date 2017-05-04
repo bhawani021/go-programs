@@ -1,9 +1,9 @@
-// Sum of two array elememets
-package main
+package array
 
 import "fmt"
 
-func main() {
+// AddTwoArrays ...
+func AddTwoArrays() {
 	a := [5]int{10, 20, 30, 40, 50}
 	b := [5]int{100, 200, 300, 400, 500}
 

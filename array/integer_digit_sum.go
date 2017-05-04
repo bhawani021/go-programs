@@ -1,9 +1,9 @@
-// Sum of integer digit
-package main
+package array
 
 import "fmt"
 
-func main() {
+// IntegerDigitSum ...
+func IntegerDigitSum() int {
 	var num, sum int
 	fmt.Print("Please enter a number:")
 	fmt.Scanf("%d", &num)
@@ -12,6 +12,5 @@ func main() {
 		sum += num % 10
 		num /= 10
 	}
-
-	fmt.Println("Sum =", sum)
+	return sum
 }

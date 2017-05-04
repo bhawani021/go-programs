@@ -1,10 +1,9 @@
-// Print elements an elements of array
-
-package main
+package array
 
 import "fmt"
 
-func main() {
+// PrintArrayElements ...
+func PrintArrayElements() {
 	// Declare a interger type array
 	var nums [5]int
 

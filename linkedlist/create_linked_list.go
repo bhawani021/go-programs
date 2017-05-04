@@ -1,15 +1,9 @@
-package main
+package linkedlist
 
 import "fmt"
 
-// Node structure
-type Node struct {
-	Value int
-	Next *Node
-}
-
-// Create linked list
-func createLinkedList() *Node {
+// CreateLinkedList ...
+func CreateLinkedList() *Node {
 	var head = &Node{Value: 0, Next: nil}
 	current := head
 
@@ -29,7 +23,6 @@ func printLinkedList(node *Node) {
 	}
 }
 
-func main() {
-	var list = createLinkedList()
-	printLinkedList(list)
-}
+// Call
+// var list = CreateLinkedList()
+// printLinkedList(list)
