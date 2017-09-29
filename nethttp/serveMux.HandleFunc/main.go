@@ -15,7 +15,7 @@ func main() {
 	// Create a serveMux object
 	mux := http.NewServeMux()
 
-	// Resigter URL path with handler using ServerMux.HandleFuc
+	// Resigter URL path with handler using ServerMux.HandleFunc
 	mux.HandleFunc("/welcome", customHandler)
 
 	log.Println("Listening...")
