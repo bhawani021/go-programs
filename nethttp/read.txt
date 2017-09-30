@@ -12,3 +12,14 @@ net/http package
  ServerHTTP methods has two arguments
  1. http.ResponseWriter: interface
  2. http.Request: pointer to an http.Request struct
+
+
+Order of study
+1. staticserver
+2. custom_handler
+3. function_as_handler
+4. handler_using_closure
+5. serveMux.HandleFunc
+6. DefaultServeMux
+7. http.Server.struct
+8. Gorrila
