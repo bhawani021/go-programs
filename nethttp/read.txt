@@ -22,4 +22,4 @@ Order of study
 5. serveMux.HandleFunc
 6. DefaultServeMux
 7. http.Server.struct
-8. Gorrila
+8. Gorilla
