@@ -2,6 +2,11 @@ package linkedlist
 
 import "fmt"
 
+type Node struct {
+	Value int
+	Next  *Node
+}
+
 // DisplayLinkedListElements ...
 func DisplayLinkedListElements() {
 	var choice, value int
