@@ -2,6 +2,11 @@ package linkedlist
 
 import "fmt"
 
+type Node struct {
+	Value int
+	Next  *Node
+}
+
 // CreateLinkedList ...
 func CreateLinkedList() *Node {
 	var head = &Node{Value: 0, Next: nil}
