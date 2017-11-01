@@ -1,9 +1,8 @@
-// Delete a node from linked list using key 
+// Delete a node from linked list using key
 
 package main
 
 import "fmt"
-
 
 type node struct {
 	Data int
@@ -37,7 +36,7 @@ func deleteNode(n *node, key int) *node {
 		}
 		prev = current
 		current = current.Next
-		
+
 	}
 
 	// If key was not present in linked list
@@ -62,11 +61,12 @@ func main() {
 	}
 
 	// Display linked list
+	fmt.Println("Print linked list before delete")
 	displayNodes(n)
 
 	// Delete a node from linked list
 	n = deleteNode(n, 40)
 	// Print nodes after deletion
+	fmt.Println("Print linked list after deleting a node")
 	displayNodes(n)
-
 }
