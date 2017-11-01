@@ -7,4 +7,4 @@
 * [Delete node](https://github.com/bhawani021/go-programs/blob/master/linkedlist/linked_list_delete_using_key/main.go) - Delete a node using key.
 * [Delete node](https://github.com/bhawani021/go-programs/blob/master/linkedlist/linked_list_delete_using_position/main.go) - Delete a node using position, position of head node is zero, 0.
 * [Find length](https://github.com/bhawani021/go-programs/blob/master/linkedlist/linked_list_length/main.go) - Find linked list length using iterative and recursive appraoch.
-* [Search an element] (ttps://github.com/bhawani021/go-programs/blob/master/linkedlist/linked_list_searach_element/main.go) - Search an element from linked list using iterative and recursive approach
+* [Search an element](https://github.com/bhawani021/go-programs/blob/master/linkedlist/linked_list_searach_element/main.go) - Search an element from linked list using iterative and recursive approach
