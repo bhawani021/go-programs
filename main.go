@@ -2,13 +2,15 @@ package main
 
 import (
 	"fmt"
-	"go-programs/array"
+	"go-programs/solutions"
 )
 
 func main() {
-	fmt.Println("Hello...")
+	arr := []int{1, 2, -3, 9, 0}
+	res := solutions.ZeroSumSubArray(arr)
+	fmt.Println(res) // true
 
-	// Sum with pointer
-	sum := array.IntegerDigitSum()
-	fmt.Println(sum)
+	arr = []int{1, 2, 3, 4, 0}
+	res = solutions.ZeroSumSubArray(arr)
+	fmt.Println(res) // false
 }
