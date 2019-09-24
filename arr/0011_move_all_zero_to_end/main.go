@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// Rearrange array so that all zero comes at end of array
 func ArrayZeroToEnd(arr []int) {
 	count := 0
 	for i := 0; i < len(arr); i++ {
