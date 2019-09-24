@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// Rearrange an array such that arr[i] = i
+// Rearrange an array such that array[i] = i
 func ReArrayArrayUsingSwap(arr []int) {
 	for i := 0; i < len(arr); {
 

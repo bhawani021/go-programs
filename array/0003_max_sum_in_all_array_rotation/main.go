@@ -1,6 +1,6 @@
-/* Maximum sum of i*arr[i] among all rotations of a given array
+/* Maximum sum of i*array[i] among all rotations of a given array
 
-Input : arr = {1, 2, 3}
+Input : array = {1, 2, 3}
 Output : 7
 
  */

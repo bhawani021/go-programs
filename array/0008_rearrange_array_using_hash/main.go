@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// Rearrange an array such that arr[i] = i
+// Rearrange an array such that array[i] = i
 func RearrangeArray(arr []int) {
 	hash := make(map[int]bool)
 	for i := 0; i < len(arr); i++ {

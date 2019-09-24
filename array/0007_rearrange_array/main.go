@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// Rearrange an array such that arr[i] = i
+// Rearrange an array such that array[i] = i
 func RearrangeArray(arr []int) {
 	// Length of array
 	n := len(arr)
@@ -21,7 +21,7 @@ func RearrangeArray(arr []int) {
 			}
 			arr[x] = x
 
-			// Check if not correct value for arr[i]
+			// Check if not correct value for array[i]
 			if arr[i] != i {
 				arr[i] = -1
 			}
