@@ -13,4 +13,4 @@
 * [Search an element](https://github.com/bhawani021/go-programs/blob/master/linkedlist/linked_list_searach_element/main.go) - Search an element from linked list using iterative and recursive approach
 
 ### Tree
-* [Reverse Array using interation](https://github.com/bhawani021/go-programs/blob/master/array/0000_reverse_array_using_Iterative/main.go) - Reverase Array using recursion approach.
+* [Reverse Array using iteration](https://github.com/bhawani021/go-programs/blob/master/array/0000_reverse_array_using_Iterative/main.go) - Reverase Array using recursion approach.
