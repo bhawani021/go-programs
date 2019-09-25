@@ -1,5 +1,8 @@
 # go-programs
 
+### Array
+* [Create tree](https://github.com/bhawani021/go-programs/blob/master/tree/tree_create/main.go) - Create a tree with two children (left and right).
+
 ### Linked list
 
 * [Create a linked list](https://github.com/bhawani021/go-programs/blob/master/linkedlist/linked_list_display/main.go) - Create a linked list and print key of nodes.
@@ -10,4 +13,4 @@
 * [Search an element](https://github.com/bhawani021/go-programs/blob/master/linkedlist/linked_list_searach_element/main.go) - Search an element from linked list using iterative and recursive approach
 
 ### Tree
-* [Create tree](https://github.com/bhawani021/go-programs/blob/master/tree/tree_create/main.go) - Create a tree with two children (left and right).
+* [Reverse Array using interation](https://github.com/bhawani021/go-programs/blob/master/array/0000_reverse_array_using_Iterative/main.go) - Reverase Array using recursion approach.
