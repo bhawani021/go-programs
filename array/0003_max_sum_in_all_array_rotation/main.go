@@ -1,7 +1,7 @@
 /* Maximum sum of i*array[i] among all rotations of a given array
 
 Input : array = {1, 2, 3}
-Output : 7
+Output : 8
 
  */
 package main
@@ -31,5 +31,5 @@ func getMaxSumInAllRotation(arr []int) int {
 func main() {
 	arr := []int{1, 2, 3}
 	res := getMaxSumInAllRotation(arr)
-	fmt.Println(res) // 7
+	fmt.Println(res) // 8
 }
