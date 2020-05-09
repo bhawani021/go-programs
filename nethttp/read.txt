@@ -5,7 +5,7 @@ net/http package
  2. Handler: Writes response headers and 
  
  // http.Handler interface
- type Header interface {
+ type Handler interface {
      ServeHTTP(ResponseWriter, *Request)
  }
 
