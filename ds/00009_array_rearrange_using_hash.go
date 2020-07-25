@@ -1,6 +1,8 @@
 package ds
 
 // RearrangeArrayUsingHash arrages array in such way that array[i] = i
+// Input: [-1, -1, 6, 1, 9, 3, 2, -1, 4, -1]
+// Output: [-1 1 2 3 4 -1 6 -1 -1 9]
 func RearrangeArrayUsingHash(arr []int) {
 	hash := make(map[int]bool)
 
@@ -20,11 +22,4 @@ func RearrangeArrayUsingHash(arr []int) {
 			arr[i] = -1
 		}
 	}
-
 }
-
-// func main() {
-// 	arr := []int{-1, -1, 6, 1, 9, 3, 2, -1, 4, -1}
-// 	RearrangeArrayUsingHash(arr)
-// 	fmt.Println(arr) // [-1 1 2 3 4 -1 6 -1 -1 9]
-// }

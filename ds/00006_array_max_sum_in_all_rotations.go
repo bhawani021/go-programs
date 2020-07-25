@@ -1,7 +1,7 @@
-// Get sum of array elements in format of arr[i] * i in all possible rotation
 package ds
 
 // MaxSumOfArrayInAllRotation return sum of array elements in all possible rotation
+// Get sum of array elements in format of arr[i] * i in all possible rotation
 func MaxSumOfArrayInAllRotation(arr []int) int {
 	// Length of array
 	n := len(arr)
