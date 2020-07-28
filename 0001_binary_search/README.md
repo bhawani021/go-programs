@@ -1,6 +1,7 @@
 # Binary Search
 
 Complexity: log(n)
+
 Space complexity: O(1)
 
 ```
