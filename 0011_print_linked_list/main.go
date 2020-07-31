@@ -10,7 +10,6 @@ type node struct {
 func printList(n *node) {
 	for n != nil {
 		fmt.Println(n.value)
-
 		n = n.next
 	}
 }
