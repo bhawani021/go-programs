@@ -5,21 +5,17 @@ import "fmt"
 func sort(arr []int) {
 	// Length of array
 	n := len(arr)
-	var zeros int
+
+	var k int
 
 	for i := 0; i < n; i++ {
 		if arr[i] == 0 {
-			zeros++
+			arr[k] = 0
+			k++
 		}
 	}
 
-	// Put zero at beginning of array
-	for i := 0; i < zeros; i++ {
-		arr[i] = 0
-	}
-
-	// Put one at end of array
-	for i := zeros; i < n; i++ {
+	for i := k; i < n; i++ {
 		arr[i] = 1
 	}
 }

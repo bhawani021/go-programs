@@ -2,25 +2,24 @@ package main
 
 import "fmt"
 
+func swap(arr []int, i, j int) {
+	temp := arr[i]
+	arr[i] = arr[j]
+	arr[j] = temp
+}
+
 func sort(arr []int) {
 	// Length of array
 	n := len(arr)
-	var zeros int
+
+	pivot := 1
+	var j int
 
 	for i := 0; i < n; i++ {
-		if arr[i] == 0 {
-			zeros++
+		if arr[i] < pivot {
+			swap(arr, i, j)
+			j++
 		}
-	}
-
-	// Put zero at beginning of array
-	for i := 0; i < zeros; i++ {
-		arr[i] = 0
-	}
-
-	// Put one at end of array
-	for i := zeros; i < n; i++ {
-		arr[i] = 1
 	}
 }
 
